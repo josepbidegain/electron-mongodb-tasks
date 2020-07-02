@@ -1,0 +1,15 @@
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#taskList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 40px;
+}
+
+.row {
+    justify-content: center;
+}
